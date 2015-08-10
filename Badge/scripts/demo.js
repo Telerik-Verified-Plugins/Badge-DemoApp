@@ -16,12 +16,6 @@
         }
       },
       
-      granted: function() {
-        if (!this.checkSimulator()) {
-          cordova.plugins.notification.badge.registerPermission(this.callback);
-        }
-      },
-      
       set10: function() {
         if (!this.checkSimulator()) {
           cordova.plugins.notification.badge.set(10, this.callback);
