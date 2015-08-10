@@ -2,9 +2,9 @@
   "ProjectName": "Badge",
   "ProjectGuid": "0fbd4e75-b821-450a-a8ee-79b833277fc4",
   "projectVersion": 1,
-  "AppIdentifier": "com.telerik.Badge",
+  "AppIdentifier": "com.telerik.plugindemo.badge",
   "DisplayName": "Badge",
-  "Author": "",
+  "Author": "Telerik",
   "Description": "Badge",
   "BundleVersion": "1.0",
   "AndroidVersionCode": "1",
@@ -14,7 +14,7 @@
   ],
   "iOSBackgroundMode": [],
   "ProjectTypeGuids": "{070BCB52-5A75-4F8C-A973-144AF0EAFCC9}",
-  "FrameworkVersion": "3.7.0",
+  "FrameworkVersion": "4.0.0",
   "AndroidPermissions": [
     "android.permission.INTERNET"
   ],
@@ -22,7 +22,7 @@
     "Portrait",
     "Landscape"
   ],
-  "AndroidHardwareAcceleration": "false",
+  "AndroidHardwareAcceleration": "true",
   "iOSStatusBarStyle": "Default",
   "Framework": "Cordova",
   "WP8TileTitle": "",
@@ -41,5 +41,13 @@
     "ID_RESOLUTION_WVGA",
     "ID_RESOLUTION_WXGA",
     "ID_RESOLUTION_HD720P"
+  ],
+  "CorePlugins": [
+    "cordova-plugin-console",
+    "cordova-plugin-crosswalk-webview@1.2.0",
+    "cordova-plugin-device",
+    "cordova-plugin-splashscreen",
+    "cordova-plugin-statusbar",
+    "cordova-plugin-whitelist"
   ]
 }
